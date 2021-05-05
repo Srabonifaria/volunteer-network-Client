@@ -12,7 +12,7 @@ const AddEvent = () => {
               name: data.name,
               imageURL: imageURL
           };
-          const url = `http://localhost:5055/addEvent`
+          const url = `https://morning-shelf-37979.herokuapp.com/addEvent`
          fetch(url,{
              method: 'POST',
              headers: {
